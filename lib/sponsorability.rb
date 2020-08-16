@@ -1,6 +1,6 @@
 class Sponsorability
 
-    def self.runcheck(placings, partcipants, tournaments, streamHours, minutesOfVideo)
+    def self.runcheck(placings, participants, tournaments, streamHours, minutesOfVideo)
         tournamentScore = 0
         sponsorabilityScore = 0
         rank = ""
