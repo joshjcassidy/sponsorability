@@ -62,10 +62,10 @@ class Sponsorability
         end
 
 
-        response = "<h3>Your score is: " + sponsorabilityScore + " | Rank: " + rank + "</h3>"
+        response = "<h3>Your score is: #{sponsorabilityScore} | Rank: #{rank}</h3>"
 
         if rankUp != 0
-            response << "<p>Only " + rankUp + " points to go until the next Rank!</p>"
+            response << "<p>Only #{rankUp} points to go until the next Rank!</p>"
         end
 
 
@@ -78,11 +78,11 @@ class Sponsorability
         end
 
         if minutesOfVideo < recommendVideo
-            response << "<li>Try uploading " + recommendVideo + " minutes of video to YouTube per week!</li>"
+            response << "<li>Try uploading #{recommendVideo} minutes of video to YouTube per week!</li>"
         end
 
         if streamHours < recommendStream
-            response << "<li>Try streaming " + recommendStream + " hours per week!</li>"
+            response << "<li>Try streaming #{recommendStream} hours per week!</li>"
         end
 
         return response
