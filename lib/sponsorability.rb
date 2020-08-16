@@ -1,8 +1,8 @@
 class Sponsorability
 
     def self.runcheck(placings, partcipants, tournaments, streamHours, minutesOfVideo)
-        tournamentScore = 0 is local variable
-        sponsorabilityScore = 0 is instance variable
+        tournamentScore = 0
+        sponsorabilityScore = 0
         rank = ""
         rankUp = 0
 
